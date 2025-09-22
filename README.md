@@ -1,3 +1,4 @@
+# Socket.IO
 Socket.IO es una librería para aplicaciones web que permite la comunicación en tiempo real entre el cliente y el servidor. Utiliza WebSockets, pero también ofrece una capa de abstracción para otros transportes (como long polling) cuando WebSockets no está disponible. Es particularmente útil en aplicaciones donde se necesita una comunicación bidireccional constante y en tiempo real entre el servidor y los clientes.
 
 Aplicaciones de chat en tiempo real:
