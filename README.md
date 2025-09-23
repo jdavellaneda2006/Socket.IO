@@ -27,3 +27,6 @@ Solución de Socket.IO:
 Las aplicaciones modernas requieren comunicación en tiempo real, lo que significa que los usuarios deben recibir datos actualizados sin tener que actualizar manualmente la página o esperar largos intervalos. Por ejemplo, en una aplicación de mensajería o un juego en línea, los eventos deben ser reflejados en la interfaz del usuario instantáneamente.
 
 Socket.IO resuelve este problema mediante el establecimiento de una conexión bidireccional persistente entre el cliente y el servidor. Esto elimina la necesidad de que el cliente haga constantemente nuevas solicitudes HTTP, ya que los datos pueden ser enviados de inmediato tan pronto como estén disponibles.
+
+El proyecto consiste en un panel de control (dashboard) para una tienda en línea que permite visualizar y gestionar en tiempo real datos esenciales , como el número de usuarios conectados, las ventas realizadas y el stock de productos.
+El servidor envía la información actualizada a los clientes de manera instantánea mediante Socket.IO, evitando la necesidad de recargar la página. Además, el dashboard incluye un módulo de notificaciones (alertas, avisos y recordatorios) y un canal de soporte en vivo para comunicación directa entre administrador y clientes. 
